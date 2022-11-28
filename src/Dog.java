@@ -20,6 +20,16 @@ public class Dog
         numDogs++;
     }
 
+    public Dog()
+    {
+        name = "name goes here";
+        age = 0;
+        breed = "breed goes here";
+        weight = 0;
+
+        numDogs++;
+    }
+
     //getters
     public String getName()
     {
